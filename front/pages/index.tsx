@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { InputTextComponent } from '../../my-lib-ui/dist/index';
+import 'my-lib-ui/dist';
 
 export default function Home() {
   return (

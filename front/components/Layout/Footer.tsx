@@ -14,8 +14,6 @@ const Footer: React.FC = () => {
                     <p>RIDE 2022 - tout droits reservés</p>
                 </div>
             </div>
-
-
         </footer>
     )
 

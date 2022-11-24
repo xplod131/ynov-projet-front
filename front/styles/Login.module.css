@@ -1,10 +1,18 @@
 .container {
     background-color: darkgray;
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 216px);
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.center {
+    /*
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
 }
 
 .arrow {
@@ -28,8 +36,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 500px;
-    height: 400px;
     align-content: space-between;
 }
 
@@ -52,8 +58,8 @@
 }
 
 .cardLogin {
-    width: 358px;
-    height: 317px;
+    width: 350px;
+    height: 350px;
     background: #FFFFFF;
 }
 

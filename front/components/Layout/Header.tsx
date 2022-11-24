@@ -1,15 +1,12 @@
 import React from "react";
-import { InputTextComponent } from '../../../my-lib-ui/dist/index';
+import { InputTextComponent } from 'my-lib-ui';
 
 import styles from '../../styles/Header.module.css'
-
-import LogoCar from '../../img/Logo.svg';
 
 const Header: React.FC = () => {
 
     return (
         <header>
-
             <div className={styles.container}>
                 <div className={styles.startElement}>
                     <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
