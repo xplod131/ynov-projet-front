@@ -1,19 +1,24 @@
 .my-lib-ui-form-field {
   position: relative;
+}
 
-  .my-lib-ui-input {
-    padding: 18px 12px 18px 16px;
-    height: 60px;
-    width: 343px;
-    color: #C00000;
-  }
+.my-lib-ui-input {
+  padding: 18px 12px 18px 16px;
+  height: 20px;
+  width: 343px;
+  background-color: #F9F9F9;
+  border: 0px;
+  color: #C00000;
+}
 
-  .my-lib-ui-input:focus {
-    border-bottom: 1px solid black;
+input:focus {
+  border-bottom: 2px solid black;
 
-    .my-lib-ui-label {
-      top: 0;
+  outline: none;
+}
 
-    }
-  }
+.my-lib-ui-label {
+  top: 5px;
+  left: 15px;
+  position: absolute;
 }
