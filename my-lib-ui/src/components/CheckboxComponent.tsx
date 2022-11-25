@@ -6,7 +6,12 @@ type Props = React.DetailedHTMLProps<
 > & { label: string };
 
 const CheckboxComponent: React.FC<Props> = (props) => {
-  return <div></div>;
+  return (
+    <div className="container-my-lib-ui-checkbox">
+      <input type="checkbox" />
+      <legend>J'atteste que je possède un permis de conduire valide</legend>
+
+    </div>);
 };
 
 export default CheckboxComponent;
