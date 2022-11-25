@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    width: 100vw;
 }
 
 .startElement {
@@ -20,8 +21,10 @@
     font-weight: 400;
     font-size: 39.1476px;
     margin-left: 5px;
+    line-height: 71px;
 }
 
 .endElement {
-    right: 0;
+    right: 3px;
+    position: absolute;
 }

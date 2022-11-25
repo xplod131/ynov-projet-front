@@ -15,12 +15,10 @@ const Login: React.FC = () => {
                             <h1 className={styles.loginText}>Connexion</h1>
                             <div className={styles.containerForm}>
                                 <InputTextComponent label={'fdgfdgf'} />
-
                             </div>
                         </div>
                     </div>
                 </div>
-
 
             </div>
 

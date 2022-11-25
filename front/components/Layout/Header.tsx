@@ -1,9 +1,15 @@
 import React from "react";
-import { InputTextComponent } from 'my-lib-ui';
-
 import styles from '../../styles/Header.module.css'
+import {ButtonComponent} from "my-lib-ui";
+import {NextRouter, useRouter} from "next/router";
 
 const Header: React.FC = () => {
+
+    const router: NextRouter = useRouter();
+
+    const handleClickLogin = () => {
+        router.push('/login');
+    };
 
     return (
         <header>
@@ -17,7 +23,7 @@ const Header: React.FC = () => {
 
                 </div>
                 <div className={styles.endElement}>
-                    <InputTextComponent label={'Connexion admin'}></InputTextComponent>
+                    <ButtonComponent onClick={handleClickLogin} label={'Connexion admin'} />
                 </div>
 
             </div>

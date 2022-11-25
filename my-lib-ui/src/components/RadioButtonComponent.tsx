@@ -14,7 +14,6 @@ const RadioButtonComponent: React.FC<Props> = (props) => {
           <input type="radio" id="entreprise" name="unique" value="Une entreprise" />
           <label htmlFor="entreprise">Une entreprise</label>
         </div>
-
         <div>
           <input type="radio" id="particulier" name="unique" value="Un particulier" />
           <label htmlFor="particulier">Un particulier</label>
