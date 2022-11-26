@@ -1,7 +1,11 @@
+/*
 .container {
-  height: calc(100vh - 216px);
+  display: block;
   width: 100%;
+  background-color: #C00000;
+  height: 100%;
 }
+*/
 
 .cardText {
   display: inline-flex;
@@ -17,6 +21,7 @@
 }
 
 .cardLogin {
+  position: absolute;
   width: 800px;
   height: 94px;
   background: #FFFFFF;
@@ -50,7 +55,7 @@
 }
 
 .inscriptionCard {
-  padding: 24px;
+  #padding: 24px;
 }
 
 .hr {
@@ -67,4 +72,19 @@
 .cardImage {
   width: 100%;
   height: 424px;
+}
+
+.row {
+  display: flex;
+}
+
+.spaceInput {
+  margin-bottom: 8px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
