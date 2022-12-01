@@ -38,22 +38,22 @@ export default function Home() {
                     <h2 className={styles.titleInscription}>Inscription</h2>
                     <div className={styles.collage}>
                         <div className={styles.fullwidth}>
-                            <RadioButtonComponent label={'gfdgdf'} />
+                            <RadioButtonComponent label={'Nom'} />
                         </div>
                         <div className={styles.collageItem}>
-                            <InputTextComponent label={"fdsfd"} />
+                            <InputTextComponent label={"Nom"} />
                         </div>
                         <div className={styles.collageItem}>
-                            <InputTextComponent label={"fdsfd"} />
+                            <InputTextComponent label={"Prénom"} />
                         </div>
                         <div className={styles.collageItem}>
-                            <InputTextComponent label={"fdsfd"} />
+                            <InputTextComponent label={"Email"} />
                         </div>
                         <div className={styles.collageItem}>
-                            <InputTextComponent label={"fdsfd"} />
+                            <InputTextComponent label={"Numéro de téléphone"} />
                         </div>
                         <div className={styles.collageItem}>
-                            <SelectComponent ></SelectComponent>
+                            <SelectComponent placeholder={"Sélectionner une valeur"}></SelectComponent>
                         </div>
                         <div className={styles.fullwidth}>
                             <CheckboxComponent label={"fdsfd"} />
