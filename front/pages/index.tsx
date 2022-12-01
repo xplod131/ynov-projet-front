@@ -61,12 +61,10 @@ export default function Home() {
                     </div>
                     <div className={styles.buttonFlex}>
                         <div className={styles.buttonFlexChild}>
-                            <ButtonComponent label={"fdsfd"} onClick={() => { }} />
+                            <ButtonComponent label={"Demander mon inscription"} onClick={() => { }} />
                         </div>
                     </div>
                 </div>
-
-
 
             </div>
         </div>
