@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import HeaderCars from '../img/HeaderCars.png';
-import { InputTextComponent, RadioButtonComponent, SelectComponent, CheckboxComponent, ButtonComponent } from "my-lib-ui";
+import {InputTextComponent, RadioButtonComponent, SelectComponent, CheckboxComponent, ButtonComponent} from "my-lib-ui";
 import React from "react";
-import { NextRouter, useRouter } from 'next/router';
+import {NextRouter, useRouter} from 'next/router';
+import ConfirmRegister from "./ConfirmRegister";
 
 export default function Home() {
 
@@ -17,7 +18,7 @@ export default function Home() {
 
             <div className={styles.imageCars}>
 
-                <Image className={styles.img} src={HeaderCars} alt={'g'} />
+                <Image className={styles.img} src={HeaderCars} alt={'g'}/>
 
                 <div className={styles.containerText}>
                     <div className={styles.Text}>
@@ -31,11 +32,47 @@ export default function Home() {
             </div>
 
             <div className={styles.containerInput}>
+
+
                 <div className={styles.containerInputBox}>
-                    <div className={styles.columnContainer1}>
-                        <div className={styles.element}>
-                            <h2 className={styles.titleInscription}>Inscription</h2>
+
+                    <h2 className={styles.titleInscription}>Inscription</h2>
+                    <div className={styles.collage}>
+                        <div className={styles.fullwidth}>
+                            <RadioButtonComponent label={'gfdgdf'}/>
                         </div>
+                        <div className={styles.collageItem}>
+                            <InputTextComponent label={"fdsfd"}/>
+                        </div>
+                        <div className={styles.collageItem}>
+                            <InputTextComponent label={"fdsfd"}/>
+                        </div>
+                        <div className={styles.collageItem}>
+                            <InputTextComponent label={"fdsfd"}/>
+                        </div>
+                        <div className={styles.collageItem}>
+                            <InputTextComponent label={"fdsfd"}/>
+                        </div>
+                        <div className={styles.collageItem}>
+                            <SelectComponent ></SelectComponent>
+                        </div>
+                        <div className={styles.fullwidth}>
+                            <CheckboxComponent label={"fdsfd"}/>
+                        </div>
+                    </div>
+                    <div className={styles.buttonFlex}>
+                        <div className={styles.buttonFlexChild}>
+                            <ButtonComponent label={"fdsfd"} onClick={() => {}}/>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/*                   <div className={styles.columnContainer1}>
+
+
+                        <ConfirmRegister />
+
                         <div className={styles.element}>
                             <RadioButtonComponent label={'gfdgdf'} />
                         </div>
@@ -67,9 +104,9 @@ export default function Home() {
                 </div>
 
             </div>
+*/}
 
-
-            {/*            <div className={styles.cardImage}>
+                {/*            <div className={styles.cardImage}>
                 <Image src={HeaderCars} className={styles.imageCars} alt={'g'}/>
                 <div className={styles.box}>
                     <div className={styles.center}>
@@ -130,6 +167,7 @@ export default function Home() {
             </div>*/}
 
 
+            </div>
         </div>
     )
 }

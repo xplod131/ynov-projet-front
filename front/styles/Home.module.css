@@ -52,13 +52,36 @@
 
 }
 
-.containerInputBox {
+.buttonFlex {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.buttonFlexChild {
+  height: 50%;
+  width: 50%;
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+}
+.collageItem {
+  flex: 0 0 50%;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.fullwidth {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+
+}
+
+.containerInputBox {
   background-color: white;
   height: 500px;
-  display: flex;
-
-
+  width: 800px;
 }
 
 .titleInscription {

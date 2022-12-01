@@ -59,8 +59,11 @@
 
 .cardLogin {
     width: 350px;
-    height: 350px;
     background: #FFFFFF;
+}
+
+.spaceItems {
+    margin-bottom: 20px;
 }
 
 .item {

@@ -31,6 +31,7 @@ button {
   padding: 12px 16px 12px 16px;
   font-size: 16px;
   cursor: pointer;
+  width: 100%;
 }
 
 .container-select-radio {
@@ -59,6 +60,19 @@ button {
   top: 22px;
   left: 20px;
   position: absolute;
+}
+
+.container-my-lib-ui-checkbox {
+  display: flex;
+}
+
+.container-my-lib-ui-checkbox legend,
+.container-my-lib-ui-checkbox label {
+  color: black;
+}
+
+.container-my-lib-ui-checkbox .container-my-lib-ui-checkbox > legend {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=index.css.map */

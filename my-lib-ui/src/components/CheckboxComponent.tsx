@@ -10,7 +10,6 @@ const CheckboxComponent: React.FC<Props> = (props) => {
     <div className="container-my-lib-ui-checkbox">
       <input type="checkbox" />
       <legend>J'atteste que je possède un permis de conduire valide</legend>
-
     </div>);
 };
 
