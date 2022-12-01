@@ -37,6 +37,10 @@ export default function Home() {
                 <div className={styles.containerInputBox}>
 
                     <h2 className={styles.titleInscription}>Inscription</h2>
+
+                    <ConfirmRegister />
+                    
+
                     <div className={styles.collage}>
                         <div className={styles.fullwidth}>
                             <RadioButtonComponent label={'gfdgdf'}/>
