@@ -8,7 +8,13 @@ export default function Home() {
     return (
         <div className={styles.container}>
 
-            <div className={styles.cardImage}>
+            <div className={styles.imageCars}>
+                <Image src={HeaderCars} alt={'g'}/>
+
+            </div>
+
+
+{/*            <div className={styles.cardImage}>
                 <Image src={HeaderCars} className={styles.imageCars} alt={'g'}/>
                 <div className={styles.box}>
                     <div className={styles.center}>
@@ -66,7 +72,7 @@ export default function Home() {
                     </div>
                 </div>
 
-            </div>
+            </div>*/}
 
 
         </div>
