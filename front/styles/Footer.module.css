@@ -1,8 +1,8 @@
 .footer {
-
-
-    margin-top: 500px;
+    position: absolute;
+    bottom: -350px;
 }
+
 .container {
     width: 100vw;
     height: 144px;
@@ -33,4 +33,11 @@
 
 .containerDroit>p {
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        bottom: -550px;
+    }
+
 }

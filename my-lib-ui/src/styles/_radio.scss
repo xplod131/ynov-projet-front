@@ -1,3 +1,8 @@
 .container-select-radio {
     display: flex;
+
+    legend,
+    label {
+        color: black;
+    }
 }

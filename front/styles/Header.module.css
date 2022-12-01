@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: 100vw;
+
 }
 
 .startElement {
@@ -13,6 +13,8 @@
     align-items: center;
     left: 0;
 }
+
+
 
 .startElement>p {
     color: black;
