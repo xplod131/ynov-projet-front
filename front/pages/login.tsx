@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../styles/Login.module.css';
-import {ButtonComponent, InputTextComponent} from "my-lib-ui";
+import { ButtonComponent, InputPasswordComponent, InputTextComponent } from "my-lib-ui";
 import Link from "next/link";
 
 const Login: React.FC = () => {
@@ -16,12 +16,12 @@ const Login: React.FC = () => {
                             <h1 className={styles.loginText}>Connexion</h1>
                             <div className={styles.containerForm}>
                                 <div className={styles.spaceItems}>
-                                    <InputTextComponent label={'fdgfdgf'} />
+                                    <InputTextComponent label={'identifiant'} />
                                 </div>
                                 <div className={styles.spaceItems}>
-                                    <InputTextComponent label={'fdgfdgf'} />
+                                    <InputPasswordComponent label={'password'} />
                                 </div>
-                                <ButtonComponent label={'fdgfd'} onClick={() => {}} />
+                                <ButtonComponent label={'fdgfd'} onClick={() => { }} />
                             </div>
                         </div>
                     </div>
