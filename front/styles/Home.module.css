@@ -2,28 +2,23 @@
   width: 100%;
   height: 424px;
   position: relative;
-
-
-
 }
 
 .img {
-  width: 100%;
-
+  max-width: 100%;
+  min-width: 30%;
 }
 
 .imageCars {
-
   display: flex;
   justify-content: center;
 }
 
 .containerText {
   height: 104px;
-  width: 795.92px;
+  width: 60%;
   position: absolute;
   bottom: 0px;
-
   background-color: white;
   border-bottom: 1px solid #C00000;
   display: flex;
@@ -86,4 +81,40 @@
 
 .columnContainer1 {
   width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .containerInputBox {
+    flex-direction: column;
+  }
+
+  .columnContainer1,
+  .columnContainer2 {
+    width: 100%;
+  }
+
+  .column2Input {
+    margin-top: 0px;
+  }
+
+  .inscriptionButton {
+    position: initial;
+  }
+
+  .Text {
+    font-size: 14px;
+
+  }
+
+  .containerText {
+    width: 90%;
+    height: 250px;
+    right: 0px;
+  }
+
+  .img {
+    object-fit: cover;
+  }
+
+
 }
