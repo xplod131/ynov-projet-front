@@ -1,0 +1,66 @@
+.my-lib-ui-form-field {
+  position: relative;
+}
+
+.my-lib-ui-input {
+  padding: 18px 12px 18px 16px;
+  width: 100%;
+  background-color: #F9F9F9;
+  border: 0px;
+  color: #C00000;
+}
+
+input:focus {
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.my-lib-ui-label {
+  top: 5px;
+  left: 15px;
+  position: absolute;
+  font-size: 10px;
+  color: black;
+}
+
+button {
+  background-color: #C00000;
+  border: 0;
+  color: white;
+  text-align: center;
+  padding: 12px 16px 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container-select-radio {
+  display: flex;
+}
+
+.container-select-radio legend,
+.container-select-radio label {
+  color: black;
+}
+
+.my-lib-ui-form-field {
+  position: relative;
+}
+
+.my-lib-ui-form-field .my-lib-ui-select {
+  padding: 18px 12px 18px 16px;
+  height: 50px;
+  width: 100%;
+  background-color: #F9F9F9;
+  border: 0px;
+  color: black;
+}
+
+.my-lib-ui-form-field .my-lib-form-label-select {
+  top: 22px;
+  left: 20px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */

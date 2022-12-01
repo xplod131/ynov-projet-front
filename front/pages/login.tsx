@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../styles/Login.module.css';
-import {InputTextComponent} from "my-lib-ui";
+import { InputTextComponent } from "my-lib-ui";
 
 const Login: React.FC = () => {
     return (

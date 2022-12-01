@@ -1,12 +1,12 @@
 .footer {
-
-
-    margin-top: 500px;
+    position: absolute;
+    bottom: -300px;
 }
+
 .container {
     width: 100vw;
     height: 144px;
-    background-color: black;
+    background-color: red;
 
 }
 
