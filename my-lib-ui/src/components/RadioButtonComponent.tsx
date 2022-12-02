@@ -6,20 +6,15 @@ type Props = React.DetailedHTMLProps<
 > & { label: string };
 
 const RadioButtonComponent: React.FC<Props> = (props) => {
+
+  const {label, name, value} = props;
+
   return (
     <div className="my-lib-ui-radio-container">
-      <legend>Je suis : </legend><br />
-      <div className="container-select-radio">
-        <div>
-          <input type="radio" id="entreprise" name="unique" value="Une entreprise" />
-          <label htmlFor="entreprise">Une entreprise</label>
-        </div>
-        <div>
-          <input type="radio" id="particulier" name="unique" value="Un particulier" />
-          <label htmlFor="particulier">Un particulier</label>
-        </div>
+      <div>
+        <input type="radio" id={label} name={name} value={value} />
+        <label htmlFor={label}>{label}</label>
       </div>
-
     </div>);
 };
 

@@ -20,25 +20,19 @@ var ButtonComponent = function ButtonComponent(_ref) {
 };
 
 var RadioButtonComponent = function RadioButtonComponent(props) {
+  var label = props.label,
+      name = props.name,
+      value = props.value;
   return React.createElement("div", {
     className: "my-lib-ui-radio-container"
-  }, React.createElement("legend", null, "Je suis : "), React.createElement("br", null), React.createElement("div", {
-    className: "container-select-radio"
   }, React.createElement("div", null, React.createElement("input", {
     type: "radio",
-    id: "entreprise",
-    name: "unique",
-    value: "Une entreprise"
+    id: label,
+    name: name,
+    value: value
   }), React.createElement("label", {
-    htmlFor: "entreprise"
-  }, "Une entreprise")), React.createElement("div", null, React.createElement("input", {
-    type: "radio",
-    id: "particulier",
-    name: "unique",
-    value: "Un particulier"
-  }), React.createElement("label", {
-    htmlFor: "particulier"
-  }, "Un particulier"))));
+    htmlFor: label
+  }, label)));
 };
 
 var SelectComponent = function SelectComponent(props) {

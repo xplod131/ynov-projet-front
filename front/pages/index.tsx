@@ -38,7 +38,13 @@ export default function Home() {
                     <h2 className={styles.titleInscription}>Inscription</h2>
                     <div className={styles.collage}>
                         <div className={styles.fullwidth}>
-                            <RadioButtonComponent label={'Nom'} />
+                            <div>
+                                <legend>Je suis : </legend><br />
+                                <div className="container-select-radio">
+                                    <RadioButtonComponent label={'Une entreprise'} value={'entreprise'} name={'person_type'} />
+                                    <RadioButtonComponent label={'Un particulier'} value={'particulier'} name={'person_type'} />
+                                </div>
+                            </div>
                         </div>
                         <div className={styles.collageItem}>
                             <InputTextComponent label={"Nom"} />
