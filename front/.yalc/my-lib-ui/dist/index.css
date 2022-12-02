@@ -43,6 +43,10 @@ button {
   color: black;
 }
 
+input[type=radio] {
+  accent-color: black;
+}
+
 .my-lib-ui-form-field {
   position: relative;
 }
@@ -73,6 +77,10 @@ button {
 
 .container-my-lib-ui-checkbox .container-my-lib-ui-checkbox > legend {
   margin-left: 20px;
+}
+
+input[type=checkbox] {
+  accent-color: black;
 }
 
 .my-lib-ui-form-field {

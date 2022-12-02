@@ -16,12 +16,12 @@ const Login: React.FC = () => {
                             <h1 className={styles.loginText}>Connexion</h1>
                             <div className={styles.containerForm}>
                                 <div className={styles.spaceItems}>
-                                    <InputTextComponent label={'identifiant'} />
+                                    <InputTextComponent label={'Identifiant'} />
                                 </div>
                                 <div className={styles.spaceItems}>
-                                    <InputPasswordComponent label={'password'} />
+                                    <InputPasswordComponent label={'Mot de passe'} />
                                 </div>
-                                <ButtonComponent label={'fdgfd'} onClick={() => { }} />
+                                <ButtonComponent label={'Connexion'} onClick={() => { }} />
                             </div>
                         </div>
                     </div>
