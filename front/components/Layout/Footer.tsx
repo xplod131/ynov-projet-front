@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
             <div className={styles.container}>
                 <div className={styles.containerLinks}>
                     <a>Contact</a>
-                    <a>conditions Genéral pdf</a>
+                    <a>Conditions genérales pdf</a>
                 </div>
                 <div className={styles.containerDroit}>
-                    <p>RIDE {year} - tout droits reservés</p>
+                    <p>RIDE {year} - Tous droits reservés</p>
                 </div>
             </div>
         </footer>

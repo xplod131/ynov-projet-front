@@ -38,9 +38,12 @@ var RadioButtonComponent = function RadioButtonComponent(props) {
 };
 
 var SelectComponent = function SelectComponent(props) {
+  var label = props.label;
   return React.createElement("div", {
     className: "my-lib-ui-form-field"
-  }, React.createElement("select", Object.assign({
+  }, React.createElement("label", {
+    className: "my-lib-form-label-select"
+  }, label), React.createElement("select", Object.assign({
     className: "my-lib-ui-select"
   }, props), props.children));
 };
