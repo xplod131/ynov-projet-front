@@ -39,5 +39,8 @@
     .footer {
         bottom: -550px;
     }
+    .containerLinks {
+        margin-left: 20px;
+    }
 
 }

@@ -14,8 +14,6 @@
     left: 0;
 }
 
-
-
 .startElement>p {
     color: black;
     font-family: 'Bayon';
@@ -27,6 +25,6 @@
 }
 
 .endElement {
-    right: 3px;
+    right: 10px;
     position: absolute;
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Apple from '../img/Apple.png';
 import Googleplay from '../img/GooglePlay.svg';
 
-const ConfirmRegister: React.FC = () => {
+const ConfirmRegisterPage: React.FC = () => {
 
     return (
         <div className={styles.confirmContainer}>
@@ -20,4 +20,4 @@ const ConfirmRegister: React.FC = () => {
 
 }
 
-export default ConfirmRegister;
+export default ConfirmRegisterPage;

@@ -43,6 +43,10 @@ button {
   color: black;
 }
 
+input[type=radio] {
+  accent-color: black;
+}
+
 .my-lib-ui-form-field {
   position: relative;
 }
@@ -53,12 +57,13 @@ button {
   width: 100%;
   background-color: #F9F9F9;
   border: 0px;
-  color: black;
+  color: #918E8E;
 }
 
 .my-lib-ui-form-field .my-lib-form-label-select {
-  top: 22px;
-  left: 20px;
+  top: 5px;
+  left: 15px;
+  font-size: 10px;
   position: absolute;
 }
 
@@ -73,6 +78,43 @@ button {
 
 .container-my-lib-ui-checkbox .container-my-lib-ui-checkbox > legend {
   margin-left: 20px;
+}
+
+input[type=checkbox] {
+  accent-color: black;
+}
+
+.my-lib-ui-form-field {
+  position: relative;
+}
+
+.my-lib-ui-input {
+  padding: 18px 12px 18px 16px;
+  width: 100%;
+  background-color: #F9F9F9;
+  border: 0px;
+  color: #C00000;
+}
+
+input:focus {
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.my-lib-ui-label {
+  top: 5px;
+  left: 15px;
+  position: absolute;
+  font-size: 10px;
+  color: black;
+}
+
+.my-lib-ui-label-svg {
+  height: 20px;
+  width: 20px;
+  top: 12px;
+  right: 15px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=index.css.map */
