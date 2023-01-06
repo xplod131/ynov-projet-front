@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../../styles/Header.module.css'
-import {ButtonComponent} from "my-lib-ui";
-import {NextRouter, useRouter} from "next/router";
+import { ButtonComponent } from "my-lib-ui";
+import { NextRouter, useRouter } from "next/router";
 import Link from "next/link";
 
 const Header: React.FC = () => {

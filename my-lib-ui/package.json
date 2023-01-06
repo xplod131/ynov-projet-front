@@ -23,7 +23,7 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
     "yalc:build": "npm run sass:build && npm run build &&  yalc publish --private",
-    "sass:build": "sass src/index.css dist/index.css",
+    "sass:build": "sass src/index.scss dist/index.scss",
     "sass:watch": "sass -w src",
     "storybook": "start-storybook"
   },
@@ -75,6 +75,7 @@
     "dist"
   ],
   "dependencies": {
+    "my-lib-ui": "file:.yalc/my-lib-ui",
     "sass": "^1.54.9",
     "yarn": "^1.22.19"
   }

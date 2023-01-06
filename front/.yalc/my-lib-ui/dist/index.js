@@ -17,6 +17,7 @@ var ButtonComponent = function ButtonComponent(_ref) {
   var label = _ref.label,
       onClick = _ref.onClick;
   return React.createElement("button", {
+    className: "buttonTemplate",
     onClick: onClick
   }, label);
 };
@@ -77,7 +78,13 @@ var InputPasswordComponent = function InputPasswordComponent(props) {
   })));
 };
 
+var ButtonTabComponent = function ButtonTabComponent(_ref) {
+  var label = _ref.label;
+  return React.createElement("button", null, label);
+};
+
 exports.ButtonComponent = ButtonComponent;
+exports.ButtonTabComponent = ButtonTabComponent;
 exports.CheckboxComponent = CheckboxComponent;
 exports.InputPasswordComponent = InputPasswordComponent;
 exports.InputTextComponent = InputComponent;

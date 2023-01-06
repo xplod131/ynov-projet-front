@@ -1,0 +1,22 @@
+.containerTab {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.title {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+}

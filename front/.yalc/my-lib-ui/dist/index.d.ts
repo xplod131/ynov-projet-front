@@ -4,3 +4,4 @@ export { default as RadioButtonComponent } from "./components/RadioButtonCompone
 export { default as SelectComponent } from "./components/SelectComponent";
 export { default as CheckboxComponent } from "./components/CheckboxComponent";
 export { default as InputPasswordComponent } from "./components/InputPasswordComponent";
+export { default as ButtonTabComponent } from "./components/ButtonTabComponent";

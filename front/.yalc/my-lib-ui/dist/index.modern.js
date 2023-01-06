@@ -15,6 +15,7 @@ var ButtonComponent = function ButtonComponent(_ref) {
   var label = _ref.label,
       onClick = _ref.onClick;
   return React.createElement("button", {
+    className: "buttonTemplate",
     onClick: onClick
   }, label);
 };
@@ -75,5 +76,10 @@ var InputPasswordComponent = function InputPasswordComponent(props) {
   })));
 };
 
-export { ButtonComponent, CheckboxComponent, InputPasswordComponent, InputComponent as InputTextComponent, RadioButtonComponent, SelectComponent };
+var ButtonTabComponent = function ButtonTabComponent(_ref) {
+  var label = _ref.label;
+  return React.createElement("button", null, label);
+};
+
+export { ButtonComponent, ButtonTabComponent, CheckboxComponent, InputPasswordComponent, InputComponent as InputTextComponent, RadioButtonComponent, SelectComponent };
 //# sourceMappingURL=index.modern.js.map
