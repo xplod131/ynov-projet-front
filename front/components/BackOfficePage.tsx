@@ -128,7 +128,7 @@ const BackofficePage: React.FC = () => {
                                 return (
                                     <tr key={key}>
                                         <td>{vehicle.brand}</td>
-                                        <td>{vehicle.model}</td>
+                                        <td className={styles.tdBrand}>{vehicle.model}</td>
                                         <td><ButtonComponent label={vehicle.action ? "modele" : "vérifier"} onClick={vehicle.action ? editUser : verifyUser} /></td>
                                     </tr>
                                 )

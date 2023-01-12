@@ -80,7 +80,9 @@ var InputPasswordComponent = function InputPasswordComponent(props) {
 
 var ButtonTabComponent = function ButtonTabComponent(_ref) {
   var label = _ref.label;
-  return React.createElement("button", null, label);
+  return React.createElement("button", {
+    className: "buttonTab"
+  }, label);
 };
 
 exports.ButtonComponent = ButtonComponent;

@@ -51,4 +51,6 @@
 
 }
 
-.containerTable>table>tbody>tr>td {}
+.tdBrand {
+    font-weight: bold;
+}
